@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+ }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.section-card{
+    background-color: hsl(0, 0%, 12%);
+    
+    width: 20rem;
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 2rem 2rem 0rem 2rem;
+    margin-top: 4rem;
+}
+.card{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    margin: 0rem 1.5rem;
+}
+.card .avatar{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.card h1{
+    font-size: 26px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 0.6rem;
+    font-weight: 700;
+}
+
+.card h2{
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.card p{
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 1rem;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+}
+
+.card a{
+    background-color: hsl(0, 0%, 20%);
+    width: 100%;
+    padding: 1rem ;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600px;
+}
+
+.card a:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    transition: all 0.3s ease-in-out;
+}
+
+.attribution{
+    color:hsl(0, 0%, 100%);
+}
+
+.attribution a{
+    color: hsl(75, 94%, 57%);
+    
+}
